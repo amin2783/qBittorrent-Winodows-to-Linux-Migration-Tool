@@ -5,7 +5,7 @@ alphabet ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 for char in alphabet:
 
     for path in pathlib.Path(r"YOUR_PATH_HERE").iterdir():  #Path should be like this "C:\Users\username\Desktop\New folder\\"
-                                                            #Keep the quotes, and note the double \\ at the end
+                                                            #Keep the quotes, and note the double backslash \\ at the end
         if path.is_file():
             if ".fastresume" in str(path):
 
@@ -16,7 +16,7 @@ for char in alphabet:
                 if f"{char}:\\" in data:
 
                     data = data.replace(f"{char}:\\", f"MOUNT_LOCATION_HERE{char}:/") #Mount location should be like this /home/user/media/
-                                                                                      #Keep the original quotes
+                                                                                      #Keep the original quotes, keep a slash / at the end
                     fin.close()
 
                     fin = open(path, "wt", encoding= "ANSI")
