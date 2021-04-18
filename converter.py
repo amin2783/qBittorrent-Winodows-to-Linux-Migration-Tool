@@ -24,7 +24,6 @@ for partition in range(partitions):
     mount_path = input("What is the mounting location of the drive?\n")
 
     for path in pathlib.Path(folder_path).iterdir():
-        print(path)
         if path.is_file():
             if ".fastresume" in str(path):
 
