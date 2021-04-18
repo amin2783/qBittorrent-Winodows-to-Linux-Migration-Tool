@@ -15,7 +15,8 @@ for char in alphabet:
 
                 if f"{char}:\\" in data:
 
-                    data = data.replace(f"{char}:\\", f"/home/user/media/{char}:/")
+                    data = data.replace(f"{char}:\\", f"MOUNT_LOCATION_HERE{char}:/") #Mount location should be like this /home/user/media/
+                                                                                      #Keep the original quotes
                     fin.close()
 
                     fin = open(path, "wt", encoding= "ANSI")
