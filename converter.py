@@ -6,7 +6,7 @@ alphabet ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 for char in alphabet:
 
-    for path in pathlib.Path(r"C:\Users\mamun\Desktop\Python\New folder\\").iterdir():
+    for path in pathlib.Path(r"YOUR_PATH_HERE").iterdir():
         if path.is_file():
             if "desktop.ini" in str(path):
                 break
