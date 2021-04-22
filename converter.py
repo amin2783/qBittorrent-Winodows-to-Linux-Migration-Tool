@@ -2,7 +2,7 @@ print("Welcome to the qBittorrent fastresume Windows to Linux converter!\n")
 print("Follow the on-screen instructions. Type the drive letters and its name one by one when prompted, and press Enter.\n\n")
 print("NOTE 1: Type only the drive letter, don't include colons, slashes or anything.")
 print("NOTE 2: Fastresume files path should be like this C:\\Users\\username\\Desktop\\BT_BACKUP\\ (Path of the folder where you have copied it.")
-print("NOTE 3: Mount location should be like this /home/user/media/Keep the original quotes, KEEP a slash / at the end.\n\n")
+print("NOTE 3: Mount location should be like this /home/user/media/   KEEP a slash / at the end.\n\n")
 
 
 print("So, let's start!!! :D\n\n\n")
