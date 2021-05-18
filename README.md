@@ -1,2 +1,5 @@
 # qbit-win-to-linux-fastresume-converter
-Convert your fastresume files from Windows for linux usage
+Planning to move from Windows to Linux, but wary about manually re-adding all the torrents you have seeding in qBittorrent? Well, here's something to make it easier!
+
+#Usage
+
