@@ -10,5 +10,5 @@ Planning to move from Windows to Linux, but worried about manually re-adding all
 
 ### Linux
 [Download the script from here](https://gitcdn.link/repo/amin2783/qbit-win-to-linux-fastresume-converter/main/converter.py "Download the script from here"). Open terminal in the directory where you downloaded the script and run 
-`python3 converter.py`
+```python3 converter.py```
 
