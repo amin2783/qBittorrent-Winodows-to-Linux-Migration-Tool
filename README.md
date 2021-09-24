@@ -5,7 +5,7 @@ Planning to move from Windows to Linux, but worried about manually re-adding all
 ####  Downloading
 [Download the executable from here](https://github.com/amin2783/qbit-win-to-linux-fastresume-converter/releases/download/1.0/converter.exe "Download the executable from here"). Ignore the warnings, it's safe. 
 
-**OR** download and install Python from here. Then [download this script](https://gitcdn.link/repo/amin2783/qbit-win-to-linux-fastresume-converter/main/converter.py "download this script") and run it. 
+**OR** download and install Python from [here](https://www.python.org "here"). Then [download this script](https://gitcdn.link/repo/amin2783/qbit-win-to-linux-fastresume-converter/main/converter.py "download this script") and run it. 
 
 #### Converting the Fastresume file
 1. Press Windows Key+R (or search Run in the start menu). Type `appdata` and press Enter.
